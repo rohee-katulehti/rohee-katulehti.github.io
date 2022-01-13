@@ -1,5 +1,9 @@
 # rohee-katulehti.github.io
 
+[![test](https://github.com/rohee-katulehti/rohee-katulehti.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/rohee-katulehti/rohee-katulehti.github.io/actions/workflows/test.yml)
+
+[![deploy](https://github.com/rohee-katulehti/rohee-katulehti.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/rohee-katulehti/rohee-katulehti.github.io/actions/workflows/deploy.yml)
+
 Landing page for Rohee-katulehti
 
 ## Development
