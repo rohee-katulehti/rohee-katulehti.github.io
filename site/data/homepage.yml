@@ -1,0 +1,107 @@
+home:
+  enable: true
+  title: "Rohee"
+  subtitle: "Rouhea ja rohkea tamperelainen katulehti"
+  description: '<p class="lead">Rohee on paikallinen katulehti Pirkanmaalla. Katulehteä saa myydä kuka tahansa tuloja tarvitseva.
+Lehti maksaa kadulla 10 euroa, myyjä on ostanut lehden etukäteen viidellä eurolla ja saa
+myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakauslehti täynnä kulttuuria, kokemuksia kaduilta ja yhteiskunnallisia huomioita.</p>'
+  image:
+    alt: "Keskustori, Tampere, Suomi"
+    x: "img/juho-luomala-2wpkWqkPTlY-unsplash.jpg"
+    _2x: "img/juho-luomala-2wpkWqkPTlY-unsplash.jpg"
+  imageMobile:
+    alt: "Keskustori, Tampere, Suomi"
+    x: "img/juho-luomala-2wpkWqkPTlY-unsplash.jpg"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Ota yhteyttä"
+    URL: "#yhteys"
+
+  # socialLinks:
+
+  #   - icon: "instagram"
+  #     URL: "https://www.instagram.com/teamradity/"
+
+  #   - icon: "facebook"
+  #     URL: "https://www.facebook.com/raditycom/"
+about1:
+  id: "myyjaksi"
+  enable: true
+  title: "Tule myyjäksi!"
+  content: '<p class="lead">
+    Rohee on kaduilla myytävä aikakauslehti, jota saa myydä ihan kuka tahansa tuloja haluava.   </p>
+    <p class="lead">
+ 
+Myyjänä tienaat 5 euroa jokaisesta myydystä lehdestä.   </p>
+    <p class="lead">
+ 
+Jos haluat myydä Rohee-lehteä, ota yhteyttä sähköpostitse tai puhelimitse. Huhtikuussa 2022
+lehden myyntipiste myyjille avataan kulttuuritalo Laikkuun, Tampereen keskustaan ja voit tulla
+käymään myyntipisteellä.   </p>
+    <p class="lead">
+ 
+Kun aloitat myyjänä, saat viisi ilmaista lehteä, liivit, vinkkejä myyntipaikasta ja ohjeita töiden
+aloittamiseen. Ilmaislehtien jälkeen ostat niitä etukäteen 5 eurolla ja myyt kympillä. Käteen jäävän
+voiton pidät itselläsi. Voit myydä lehteä milloin haluat ja aina palauttaa myymättömät lehdet. Voit
+myös valita oman myyntipaikkasi.
+    </p>
+'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Ota yhteyttä"
+    URL: "#yhteys"
+  image:
+    alt: "Keskustori, Tampere, Suomi"
+    x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
+    _2x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
+
+# about
+about2:
+  id: "ilmoita"
+  enable: true
+  title: "Ilmoita ja tue lehteä!"
+  content: '<p class="lead">
+    Ensimmäisenä toimintavuotenaan Rohee ilmestyy kolme kertaa. Ensimmäinen lehti ilmestyy
+huhtikuun puolivälissä. Seuraavat lehdet ilmestyvät elokuun alussa ja lokakuun puolivälissä.
+    </p>
+    <p class="lead">
+    Roheessa voi olla mukana yhteisötilaajana, jolloin logosi näkyy lehden takasivulla ja saat
+toimistollesi vuoden lehdet. Lehdessä on myös muita mainospaikkoja.
+    </p>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Ota yhteyttä"
+    URL: "#yhteys"
+  image:
+    alt: "Itsenäisyydenkatu, Tampere, Suomi"
+    x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
+    _2x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
+home2:
+  enable: true
+  description: '
+    <p class="lead">Rohee on perustettu vuonna 2021 muutamien yksityishenkilöiden ja yhteisöjen yhteistyönä.</p><p class="lead">Lehden kustantaa osuuskunta Vastapaino.</p><p class="lead">Ensimmäinen numero ilmestyy huhtikuussa 2022.</p>'
+  items:
+    - content: "Rohee on perustettu vuonna 2021 muutamien yksityishenkilöiden ja yhteisöjen yhteistyönä. Lehden kustantaa osuuskunta Vastapaino. Ensimmäinen numero ilmestyy huhtikuussa 2022."
+    - content: "Maailmalla toimii yli sata eri katulehteä 35 eri maassa. Tunnetuin on The Big Issue, jonka nimisiä
+katulehtiä ilmestyy ainakin Britanniassa, Japanissa ja Australiassa.  Suomessa pääkaupunkiseudulla on vuodesta 2011 lähtien toiminut Iso Numero -lehti."
+    - content: "Kaikkialla katulehtien idea on
+sama: autetaan ihmisiä auttamaan itseään. Monen lehden myyjät ovat kokeneet asunnottomuutta
+tai ovat muutoin haavoittuvassa asemassa. Lehden myyjä saa aina kansihinnasta vähintään puolet
+tuloa."
+
+
+# contact
+contact:
+  id: "yhteys"
+  enable: true
+  title: "Yhteystiedot"
+  subtitle: "Ota yhteyttä, jos haluat tietää lisää, ryhtyä myyjäksi tai ilmoittajaksi. Voit myös ehdottaa juttuaiheita!"
+  person:
+    title: "Päätoimittaja"
+    name: "Hannele Huhtala"
+  phone:
+    title: "Puhelin"
+    number: '<a href="tel:+358405727506">040 5727 506</a>'
+  email:
+    title: "Sähköposti"
+    email: '<a href="mailto:rohee.katulehti@gmail.com">rohee.katulehti@gmail.com</a> / <a href="mailto:hannelemarjaana@gmail.com">hannelemarjaana@gmail.com</a>'

@@ -1,0 +1,32 @@
+{{ if .Site.Data.homepage.about2.enable }}
+<section class="section rad-animation-group pb-0" id="{{ .Site.Data.homepage.about2.id }}">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-md-row">
+      <div class="col-12 col-md-6">
+        <h2>{{ .Site.Data.homepage.about2.title }}</h2>
+        <p class="lead">
+          {{ .Site.Data.homepage.about2.content | safeHTML }}
+        </p>
+        <a
+          href="{{ .Site.Data.homepage.about2.button.URL }}"
+          class="btn btn-primary"
+        >
+          <i class="{{ .Site.Data.homepage.about2.button.icon }}"></i>
+          {{ .Site.Data.homepage.about2.button.btnText }}
+        </a>
+      </div>
+      <div class="about__profile-picture" style="display: flex; justify-content: flex-end; max-height: 400px">
+        <img
+          style="width: 80%; object-fit: cover; margin-top: 0"
+          class="lozad img-responsive"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="{{ .Site.Data.homepage.about2.image.x | absURL }}"
+          data-srcset="{{ .Site.Data.homepage.about2.image.x | absURL }} 1x, {{ .Site.Data.homepage.about2.image._2x | absURL }} 2x"
+          alt="{{ .Site.Data.homepage.about2.image.alt }}"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>
+{{ end }}
