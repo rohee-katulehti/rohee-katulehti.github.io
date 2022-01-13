@@ -1,0 +1,19 @@
+name: test
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+          fetch-depth: 1
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.91.2"
+          extended: true
+
+      - name: Build
+        run: cd site && hugo --minify
