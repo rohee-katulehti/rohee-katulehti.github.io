@@ -1,0 +1,54 @@
+{{ if .Site.Data.homepage.home.enable }}
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="rad-showcase__bg" style="width: 100%; height: 60%; left: 0; justify-content: flex-end; padding-right: 50px">
+    <img
+      style="width: 40%; object-fit: cover; margin-top: 0"
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="{{ .Site.Data.homepage.home.image.x | absURL }}"
+      data-srcset="{{ .Site.Data.homepage.home.image.x | absURL }} 1x, {{ .Site.Data.homepage.home.image._2x | absURL }} 2x"
+      alt="{{ .Site.Data.homepage.home.image.alt }}"
+    />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+        <h1 class="display-1">
+          {{ .Site.Data.homepage.home.title }}
+          <br />
+          <span
+            >{{ .Site.Data.homepage.home.subtitle }}</span
+          >
+        </h1>
+        <p class="lead">
+          {{ .Site.Data.homepage.home.description | safeHTML }}
+        </p>
+        <a
+          href="{{ .Site.Data.homepage.home.button.URL }}"
+          class="btn btn-primary"
+        >
+          <i class="{{ .Site.Data.homepage.home.button.icon }}"></i>
+          {{ .Site.Data.homepage.home.button.btnText }}
+        </a>
+      </div>
+    </div>
+    <div class="row platform-links">
+      <div class="col-12">
+        {{ range .Site.Data.homepage.home.socialLinks }}
+        <a href="{{ .URL | absURL }}" target="_blank"
+          ><i class="icon-{{ .icon }}-line"></i
+        ></a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="{{ .Site.Data.homepage.home.imageMobile.x | absURL }}"
+      alt="{{ .Site.Data.homepage.home.imageMobile.alt }}"
+    />
+  </div>
+</section>
+{{ end }}
