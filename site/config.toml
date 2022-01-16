@@ -70,7 +70,7 @@ sections = ["home", "about1", "about2", "home2", "contact"]
   text2 = "katulehti"
 
 [params.footer]
-    copyright = "© Rohee 2022"
+#    copyright = "© Rohee 2022"
 #    [params.footer.radity_logo]
 #      x = "img/general/design-and-code-radity.png"
 #      _2x = "img/general/design-and-code-radity@2x.png"

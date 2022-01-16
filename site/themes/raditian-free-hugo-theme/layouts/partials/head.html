@@ -211,6 +211,39 @@
             transform: scaleY(1);
         }
     }
+
+    @media (min-width: 992px){
+        .section-img {
+            width: 80%;
+            object-fit: cover;
+            margin-top: 0;
+        }
+    }
+
+    .contact-btn {
+        text-decoration: none;
+        border: none;
+        padding-top: 12px;
+        display: block;
+    }
+
+    .about__profile-picture {
+        margin: 0 !important;
+        margin-top: 80px !important;
+    }
+
+    @media (min-width: 768px){ 
+        .about1-img {
+            padding-right: 24px;
+        }
+    }
+
+    @media (min-width: 768px){
+        .about__profile-picture {
+            justify-content: flex-end; 
+            margin-top: 0 !important;
+        }
+    }
 </style>
 
 {{ range .Site.Params.plugins.css }}

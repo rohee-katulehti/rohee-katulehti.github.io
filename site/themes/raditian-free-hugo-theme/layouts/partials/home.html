@@ -2,7 +2,7 @@
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
   <div class="rad-showcase__bg" style="width: 100%; height: 60%; left: 0; justify-content: flex-end; padding-right: 50px">
     <img
-      style="width: 40%; object-fit: cover; margin-top: 0"
+      style="width: 40%; object-fit: cover; margin-top: 0; padding-right: 36px;"
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
       data-src="{{ .Site.Data.homepage.home.image.x | absURL }}"
@@ -23,13 +23,15 @@
         <p class="lead">
           {{ .Site.Data.homepage.home.description | safeHTML }}
         </p>
-        <a
+        <p>
+          <a
           href="{{ .Site.Data.homepage.home.button.URL }}"
-          class="btn btn-primary"
+          class="contact-btn"
         >
           <i class="{{ .Site.Data.homepage.home.button.icon }}"></i>
           {{ .Site.Data.homepage.home.button.btnText }}
         </a>
+        </p>
       </div>
     </div>
     <div class="row platform-links">
@@ -42,8 +44,9 @@
       </div>
     </div>
   </div>
-  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+  <div class="rad-showcase__bg rad-showcase__bg--mobile" style="width: 100%; padding: 0 24px; justify-content: center;">
     <img
+      style="max-height: 500px; object-fit: cover;  max-width: 540px; padding-bottom: 60px;"
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
       data-src="{{ .Site.Data.homepage.home.imageMobile.x | absURL }}"
