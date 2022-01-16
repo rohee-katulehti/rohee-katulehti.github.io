@@ -1,7 +1,6 @@
 home:
   enable: true
-  title: "Rohee"
-  subtitle: "Rouhea ja rohkea tamperelainen katulehti"
+  title: "Rohee – rouhea ja rohkea tamperelainen katulehti"
   description: '<p class="lead">Rohee on paikallinen katulehti Pirkanmaalla. Katulehteä saa myydä kuka tahansa tuloja tarvitseva.
 Lehti maksaa kadulla 10 euroa, myyjä on ostanut lehden etukäteen viidellä eurolla ja saa
 myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakauslehti täynnä kulttuuria, kokemuksia kaduilta ja yhteiskunnallisia huomioita.</p>'
@@ -35,8 +34,8 @@ about1:
 Myyjänä tienaat 5 euroa jokaisesta myydystä lehdestä.   </p>
     <p class="lead">
  
-Jos haluat myydä Rohee-lehteä, ota yhteyttä sähköpostitse tai puhelimitse. Huhtikuussa 2022
-lehden myyntipiste myyjille avataan kulttuuritalo Laikkuun, Tampereen keskustaan ja voit tulla
+Jos haluat myydä Rohee-lehteä, ota yhteyttä sähköpostitse tai puhelimitse. Huhtikuussa 2022 avataan myyjille 
+lehden myyntipiste <a href="https://www.laikku.fi/" target="_blank" rel="noreferrer">kulttuuritalo Laikkuun</a>, Tampereen keskustaan ja voit tulla
 käymään myyntipisteellä.   </p>
     <p class="lead">
  
@@ -81,13 +80,13 @@ home2:
   description: '
     <p class="lead">Rohee on perustettu vuonna 2021 muutamien yksityishenkilöiden ja yhteisöjen yhteistyönä.</p><p class="lead">Lehden kustantaa osuuskunta Vastapaino.</p><p class="lead">Ensimmäinen numero ilmestyy huhtikuussa 2022.</p>'
   items:
-    - content: "Rohee on perustettu vuonna 2021 muutamien yksityishenkilöiden ja yhteisöjen yhteistyönä. Lehden kustantaa osuuskunta Vastapaino. Ensimmäinen numero ilmestyy huhtikuussa 2022."
-    - content: "Maailmalla toimii yli sata eri katulehteä 35 eri maassa. Tunnetuin on The Big Issue, jonka nimisiä
-katulehtiä ilmestyy ainakin Britanniassa, Japanissa ja Australiassa.  Suomessa pääkaupunkiseudulla on vuodesta 2011 lähtien toiminut Iso Numero -lehti."
+    - content: 'Maailmalla toimii yli sata eri katulehteä 35 eri maassa. Tunnetuin on <a href="https://www.bigissue.com/" target="_blank" rel="noreferrer">The Big Issue</a>, jonka nimisiä
+katulehtiä ilmestyy ainakin Britanniassa, Japanissa ja Australiassa.  Suomessa pääkaupunkiseudulla on vuodesta 2011 lähtien toiminut <a href="https://www.isonumero.fi/" target="_blank" rel="noreferrer">Iso Numero -lehti.</a>'
     - content: "Kaikkialla katulehtien idea on
 sama: autetaan ihmisiä auttamaan itseään. Monen lehden myyjät ovat kokeneet asunnottomuutta
 tai ovat muutoin haavoittuvassa asemassa. Lehden myyjä saa aina kansihinnasta vähintään puolet
 tuloa."
+    - content: 'Rohee on perustettu vuonna 2021 muutamien yksityishenkilöiden ja yhteisöjen yhteistyönä. Lehden kustantaa osuuskunta <a href="https://vastapaino.fi/" target="_blank" rel="noreferrer">Vastapaino</a>. Ensimmäinen numero ilmestyy huhtikuussa 2022.'
 
 
 # contact
