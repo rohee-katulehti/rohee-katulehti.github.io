@@ -63,6 +63,10 @@ weight = 4
 
 sections = ["home", "about1", "about2", "home2", "contact"]
 
+description = "Rohee on paikallinen katulehti Pirkanmaalla. Katulehteä saa myydä kuka tahansa tuloja tarvitseva. Lehti maksaa kadulla 10 euroa, myyjä on ostanut lehden etukäteen viidellä eurolla ja saa myyntivoiton tuloa. Lehti on innostava ja kiinnostava aikakauslehti täynnä kulttuuria, kokemuksia kaduilta ja yhteiskunnallisia huomioita."
+images = ['img/juho-luomala-2wpkWqkPTlY-unsplash.jpg']
+title = "Rohee – rouhea ja rohkea tamperelainen katulehti"
+
 #googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
 [params.logo]
@@ -75,3 +79,4 @@ sections = ["home", "about1", "about2", "home2", "contact"]
 #      x = "img/general/design-and-code-radity.png"
 #      _2x = "img/general/design-and-code-radity@2x.png"
 #      alt = "Design & Code - Radity"
+
