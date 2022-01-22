@@ -231,7 +231,12 @@
 
     .about__profile-picture {
         margin: 0 !important;
-        margin-top: 80px !important;
+    }
+
+    @media (min-width: 992px) {
+        .about__profile-picture {
+            margin-top: 80px !important;
+        }
     }
 
     @media (min-width: 768px){ 
@@ -245,6 +250,46 @@
             justify-content: flex-end; 
             margin-top: 0 !important;
         }
+    }
+
+    .section:not(.section--contact) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .section:not(.section--contact):not(.section--border-bottom) {
+        margin-bottom: 40px;
+    }
+
+    @media (min-width: 768px) {
+        .section:not(.section--contact) {
+            padding-top: 40px !important;
+            padding-bottom: 40px !important;
+            margin-bottom: 80px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .contact__info {
+            padding: initial !important;
+        }
+    }
+    @media (min-width: 992px) {
+        .contact-row {
+            margin-left: initial !important;
+            margin-right: initial !important;
+        }
+    }
+    .row--padded {
+        margin-top: initial !important;
+    }
+    @media (min-width: 992px) {
+        .row--padded {
+            margin-top: 32px;
+        }
+    }
+    .rad-showcase__bg--mobile img {
+        margin-top: initial !important;
     }
 </style>
 
