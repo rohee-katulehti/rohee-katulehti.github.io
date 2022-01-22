@@ -3,8 +3,8 @@
     <div class="container">
         <div class="contact">
             <h2>{{ .Site.Data.homepage.contact.title }}</h2>
-            <div class="row pt-2">
-                <div class="col-12 contact__info">
+            <div class="row pt-2 contact-row">
+                <div class="col-12 contact__info" style="padding-top: initial">
                     <p>{{ .Site.Data.homepage.contact.subtitle }}</p>
                     <h4>{{ .Site.Data.homepage.contact.person.title }}</h4>
                     <span>{{ .Site.Data.homepage.contact.person.name | safeHTML }}</span>
