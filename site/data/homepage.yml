@@ -77,8 +77,7 @@ toimistollesi vuoden lehdet. Lehdessä on myös muita mainospaikkoja.
     _2x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
 home2:
   enable: true
-  description: '
-    <p class="lead">Rohee on perustettu vuonna 2021 muutamien yksityishenkilöiden ja yhteisöjen yhteistyönä.</p><p class="lead">Lehden kustantaa osuuskunta Vastapaino.</p><p class="lead">Ensimmäinen numero ilmestyy huhtikuussa 2022.</p>'
+  title: "Mitä tarkoittaa katulehti?"
   items:
     - content: 'Maailmalla toimii yli sata eri katulehteä 35 eri maassa. Tunnetuin on <a href="https://www.bigissue.com/" target="_blank" rel="noreferrer">The Big Issue</a>, jonka nimisiä
 katulehtiä ilmestyy ainakin Britanniassa, Japanissa ja Australiassa.  Suomessa pääkaupunkiseudulla on vuodesta 2011 lähtien toiminut <a href="https://www.isonumero.fi/" target="_blank" rel="noreferrer">Iso Numero -lehti.</a>'
@@ -86,7 +85,7 @@ katulehtiä ilmestyy ainakin Britanniassa, Japanissa ja Australiassa.  Suomessa 
 sama: autetaan ihmisiä auttamaan itseään. Monen lehden myyjät ovat kokeneet asunnottomuutta
 tai ovat muutoin haavoittuvassa asemassa. Lehden myyjä saa aina kansihinnasta vähintään puolet
 tuloa."
-    - content: 'Rohee on perustettu vuonna 2021 muutamien yksityishenkilöiden ja yhteisöjen yhteistyönä. Lehden kustantaa osuuskunta <a href="https://vastapaino.fi/" target="_blank" rel="noreferrer">Vastapaino</a>. Ensimmäinen numero ilmestyy huhtikuussa 2022.'
+    - content: 'Roheen perustivat Hannele Huhtala ja Olli Viljakainen (pappi/Vanha kirkko) vuonna 2021. Mukana on nyt lukuisia järjestöjä ja muita yksityishenkilöitä. Lehden kustantaa osuuskunta <a href="https://vastapaino.fi/" target="_blank" rel="noreferrer">Vastapaino</a>. Ensimmäinen numero ilmestyy huhtikuussa 2022.'
 
 
 # contact

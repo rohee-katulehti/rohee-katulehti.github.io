@@ -1,20 +1,7 @@
 {{ if .Site.Data.homepage.home2.enable }}
-<!--<section class="section rad-animation-group pb-0">
-  <div class="container rad-fade-down">
-    <div class="row d-flex flex-column-reverse flex-md-row">
-      <div class="about__profile-picture col-12 col-md-6">
-      </div>
-      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
-        <p class="lead">
-          {{ .Site.Data.homepage.home2.description | safeHTML }}
-        </p>
-      </div>
-    </div>
-  </div>
-</section>-->
 <section class="section rad-animation-group section--border-bottom">
   <div class="container">
-      <div class="row mb-0 row--padded rad-fade-down">
+    <div class="row mb-0 row--padded rad-fade-down">
           {{ range .Site.Data.homepage.home2.items }}
           <div class="col-12 col-md-4 mb-md-0 testimonial">
               <p>
