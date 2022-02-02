@@ -291,6 +291,16 @@
     .rad-showcase__bg--mobile img {
         margin-top: initial !important;
     }
+
+    .header .navbar-brand img {
+        max-height: 70px !important;
+    }
+    @media (min-width: 992px) {
+        .header .navbar-brand img {
+            width: 150px !important;
+            max-height: 100px !important;
+        }
+    }
 </style>
 
 {{ range .Site.Params.plugins.css }}
