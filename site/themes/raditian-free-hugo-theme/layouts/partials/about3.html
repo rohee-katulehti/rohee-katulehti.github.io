@@ -2,9 +2,9 @@
 <section class="section rad-animation-group pb-0" id="{{ .Site.Data.homepage.about3.id }}">
   <div class="container rad-fade-down">
     <div class="row d-flex flex-column-reverse flex-md-row">
-      <div class="about__profile-picture" style="display: flex; max-height: 600px; flex: 1; width: 100%; padding: 0 12px;">
+      <div class="about__profile-picture" style="display: flex; max-height: 500px; flex: 1; width: 100%; padding: 0 12px;">
         <img
-          style="height: 100%; object-fit: cover; margin-top: 0; min-height: 600px;"
+          style="height: 100%; object-fit: cover; margin-top: 0; min-height: 500px;"
           class="lozad img-responsive about3-img"
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
           data-src="{{ .Site.Data.homepage.about3.image.x | absURL }}"
@@ -12,7 +12,7 @@
           alt="{{ .Site.Data.homepage.about3.image.alt }}"
         />
       </div>
-      <div class="col-12 col-md-6 my-auto my-auto">
+      <div class="col-12 col-md-6">
         <h2>{{ .Site.Data.homepage.about3.title }}</h2>
         <p class="lead">
           {{ .Site.Data.homepage.about3.content | safeHTML }}
