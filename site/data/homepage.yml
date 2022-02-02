@@ -19,10 +19,10 @@ myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakau
   # socialLinks:
 
   #   - icon: "instagram"
-  #     URL: "https://www.instagram.com/teamradity/"
+  #     URL: "https://www.instagram.com/"
 
   #   - icon: "facebook"
-  #     URL: "https://www.facebook.com/raditycom/"
+  #     URL: "https://www.facebook.com/"
 about1:
   id: "myyjaksi"
   enable: true
@@ -54,8 +54,41 @@ myös valita oman myyntipaikkasi.
     x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
     _2x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
 
-# about
 about2:
+  id: "lehti"
+  enable: true
+  title: "Lehti joka innostaa"
+  content: '<p class="lead">
+    Aikakauslehti Rohee on kiinnostava, innostava ja osallistava lukupaketti.
+    Sen keskiössä on Tampere, sen kadut ja asukkaat. Lehdessä ilmestyy säännöllisesti
+    syventyvää journalismia, artikkeleja esimerkiksi turvaverkoista ja jalkautuvasta työstä.
+    Mukana kuvareportaaseja kantaaottavista aiheista.
+    </p>
+    <p class="lead">
+    Lehden kolumnistina aloittaa pappi Olli Viljakainen
+    <a target="_blank" rel="noopener noreferrer" href="https://tampereenseurakunnat.fi/sivustot/vanha_kirkko">Vanhasta kirkosta</a>.
+    Sarjakuvataiteilijana lehdessä on <a target="_blank" rel="noopener noreferrer" href="https://tajukankaankutoja.sarjakuvablogit.com/">Jiipu Uusitalo</a>.
+    Tampereen ääni -osiossa perehdytään kiinnostavaan taiteeseen, ajankohtaisiin tapahtumiin ja koskettaviin tarinoihin.
+    Mukana tekijöissä on kirjoittajia muun muassa
+    <a target="_blank" rel="noopener noreferrer" href="https://www.yad.fi">YAD ry:stä</a> ja
+    <a target="_blank" rel="noopener noreferrer" href="https://ehyt.fi/ehyt-ry/toiminta-ja-hankkeet/opiskelijoille-tyoikaisille-ja-ikaantyneille/elokolo-kohtaamispaikat/tampereen-elokolo/">EHYT ry:n</a> Tampereen Elokolosta
+    </p>
+    <p class="lead">
+    Ensimmäinen numero ilmestyy huhtikuussa!
+    Jos haluat tukea lehteä, voit myös tilata sen kotiisi
+    <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/QPMKyribzEBraXf38">tästä linkistä</a>.
+    </p>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Ota yhteyttä"
+    URL: "#yhteys"
+  image:
+    alt: "Itsenäisyydenkatu, Tampere, Suomi"
+    x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
+    _2x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
+
+# about
+about3:
   id: "ilmoita"
   enable: true
   title: "Ilmoita ja tue lehteä!"
@@ -72,9 +105,10 @@ toimistollesi vuoden lehdet. Lehdessä on myös muita mainospaikkoja. Tutustu ni
     btnText: "Ota yhteyttä"
     URL: "#yhteys"
   image:
-    alt: "Itsenäisyydenkatu, Tampere, Suomi"
-    x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
-    _2x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
+    alt: "Pyynikin kirkkopuisto, Pirkankatu, Tampere, Suomi"
+    x: "img/juho-luomala-6tPkUHiRFac-unsplash.jpg"
+    _2x: "img/juho-luomala-6tPkUHiRFac-unsplash.jpg"
+
 home2:
   enable: true
   title: "Mitä tarkoittaa katulehti?"
