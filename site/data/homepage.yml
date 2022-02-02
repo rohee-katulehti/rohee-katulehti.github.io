@@ -19,10 +19,10 @@ myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakau
   # socialLinks:
 
   #   - icon: "instagram"
-  #     URL: "https://www.instagram.com/teamradity/"
+  #     URL: "https://www.instagram.com/"
 
   #   - icon: "facebook"
-  #     URL: "https://www.facebook.com/raditycom/"
+  #     URL: "https://www.facebook.com/"
 about1:
   id: "myyjaksi"
   enable: true
@@ -54,8 +54,37 @@ myös valita oman myyntipaikkasi.
     x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
     _2x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
 
-# about
 about2:
+  id: "lehti"
+  enable: true
+  title: "Lehti joka innostaa"
+  content: '<p class="lead">
+    Aikakauslehti Rohee on kiinnostava, innostava ja osallistava lukupaketti.
+    Sen keskiössä on Tampere, sen kadut ja asukkaat. Lehdessä ilmestyy säännöllisesti
+    syventyvää journalismia, artikkeleja esimerkiksi turvaverkoista ja jalkautuvasta työstä.
+    Mukana kuvareportaaseja kantaaottavista aiheista.
+    </p>
+    <p class="lead">
+    Lehden kolumnistina aloittaa pappi Olli Viljakainen Vanhasta kirkosta.
+    Sarjakuvataiteilijana lehdessä on Jiipu Uusitalo.
+    Tampereen ääni -osiossa perehdytään kiinnostavaan taiteeseen, ajankohtaisiin tapahtumiin ja koskettaviin tarinoihin.
+    Mukana tekijöissä on kirjoittajia muun muassa YAD ry:stä ja EHYT ry:n Tampereen Elokolosta
+    </p>
+    <p class="lead">
+    Ensimmäinen numero ilmestyy huhtikuussa!
+    Jos haluat tukea lehteä, voit myös tilata sen kotiisi. https://forms.gle/QPMKyribzEBraXf38
+    </p>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Ota yhteyttä"
+    URL: "#yhteys"
+  image:
+    alt: "Itsenäisyydenkatu, Tampere, Suomi"
+    x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
+    _2x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
+
+# about
+about3:
   id: "ilmoita"
   enable: true
   title: "Ilmoita ja tue lehteä!"
@@ -72,9 +101,10 @@ toimistollesi vuoden lehdet. Lehdessä on myös muita mainospaikkoja. Tutustu ni
     btnText: "Ota yhteyttä"
     URL: "#yhteys"
   image:
-    alt: "Itsenäisyydenkatu, Tampere, Suomi"
-    x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
-    _2x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
+    alt: "Keskustori, Tampere, Suomi"
+    x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
+    _2x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
+
 home2:
   enable: true
   title: "Mitä tarkoittaa katulehti?"
