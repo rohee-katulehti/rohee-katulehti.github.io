@@ -32,6 +32,17 @@
             >
           </li>
           {{ end }}
+          <li class="nav-item">
+            <div class="row platform-links">
+              <div class="col-12">
+                {{ range .Site.Data.homepage.home.socialLinks }}
+                <a class="some-icon" href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer"
+                  ><i class="icon-{{ .icon }}-line"></i
+                ></a>
+                {{ end }}
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
