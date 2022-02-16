@@ -14,5 +14,8 @@
       </div>
     </div>
   </div>
+  {{ if .Site.Data.homepage.home2.nextId }}
+    <div id="{{ .Site.Data.homepage.home2.nextId }}"></div>
+  {{ end }}
 </section>
 {{ end }}

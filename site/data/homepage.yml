@@ -20,11 +20,12 @@ myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakau
 
     - icon: "instagram"
       URL: "https://www.instagram.com/katulehti_rohee/"
+  nextId: "myyjaksi"
 
   #   - icon: "facebook"
   #     URL: "https://www.facebook.com/"
 about1:
-  id: "myyjaksi"
+  id: "myyjaksi-start"
   enable: true
   title: "Tule myyjäksi!"
   content: '<p class="lead">
@@ -53,9 +54,10 @@ myös valita oman myyntipaikkasi.
     alt: "Keskustori, Tampere, Suomi"
     x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
     _2x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
+  nextId: "lehti"
 
 about2:
-  id: "lehti"
+  id: "lehti-start"
   enable: true
   title: "Lehti joka innostaa"
   content: '<p class="lead">
@@ -87,10 +89,11 @@ about2:
     alt: "Itsenäisyydenkatu, Tampere, Suomi"
     x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
     _2x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
+  nextId: "ilmoita"
 
 # about
 about3:
-  id: "ilmoita"
+  id: "ilmoita-start"
   enable: true
   title: "Ilmoita ja tue lehteä!"
   content: '<p class="lead">
@@ -121,11 +124,11 @@ sama: autetaan ihmisiä auttamaan itseään. Monen lehden myyjät ovat kokeneet 
 tai ovat muutoin haavoittuvassa asemassa. Lehden myyjä saa aina kansihinnasta vähintään puolet
 tuloa."
     - content: 'Roheen perustivat Hannele Huhtala ja Olli Viljakainen (pappi/Vanha kirkko) vuonna 2021. Mukana on nyt lukuisia järjestöjä ja muita yksityishenkilöitä. Lehden kustantaa osuuskunta <a href="https://vastapaino.fi/" target="_blank" rel="noreferrer">Vastapaino</a>. Ensimmäinen numero ilmestyy huhtikuussa 2022.'
-
+  nextId: "yhteys"
 
 # contact
 contact:
-  id: "yhteys"
+  id: "yhteys-start"
   enable: true
   title: "Yhteystiedot"
   subtitle: "Ota yhteyttä, jos haluat tietää lisää, ryhtyä myyjäksi tai ilmoittajaksi. Voit myös ehdottaa juttuaiheita!"

@@ -30,5 +30,8 @@
 
     </div>
   </div>
+  {{ if .Site.Data.homepage.about2.nextId }}
+    <div id="{{ .Site.Data.homepage.about2.nextId }}"></div>
+  {{ end }}
 </section>
 {{ end }}

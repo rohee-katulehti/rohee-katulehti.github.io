@@ -53,5 +53,8 @@
       alt="{{ .Site.Data.homepage.home.imageMobile.alt }}"
     />
   </div>
+  {{ if .Site.Data.homepage.home.nextId }}
+    <div id="{{ .Site.Data.homepage.home.nextId }}"></div>
+  {{ end }}
 </section>
 {{ end }}
