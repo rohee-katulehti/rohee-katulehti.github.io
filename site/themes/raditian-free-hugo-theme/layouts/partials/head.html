@@ -305,6 +305,22 @@
             max-height: 100px !important;
         }
     }
+
+    .some-icon {
+        color: black;
+    }
+    .some-icon-footer {
+        color: white;
+    }
+    .platform-links {
+        text-align: center;
+        padding: 20px 0;
+    }
+    @media (min-width: 992px) {
+        .platform-links {
+            padding: initial;
+        }
+    }
 </style>
 
 {{ range .Site.Params.plugins.css }}

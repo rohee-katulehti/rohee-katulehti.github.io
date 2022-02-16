@@ -16,10 +16,10 @@ myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakau
     btnText: "Ota yhteyttä"
     URL: "#yhteys"
 
-  # socialLinks:
+  socialLinks:
 
-  #   - icon: "instagram"
-  #     URL: "https://www.instagram.com/"
+    - icon: "instagram"
+      URL: "https://www.instagram.com/katulehti_rohee/"
 
   #   - icon: "facebook"
   #     URL: "https://www.facebook.com/"

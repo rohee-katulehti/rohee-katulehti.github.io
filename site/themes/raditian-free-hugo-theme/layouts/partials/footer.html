@@ -15,6 +15,17 @@
           <a class="nav-link" href="{{ .URL }}">{{ .Name | upper }}</a>
         </li>
         {{ end }}
+
+        <div class="row platform-links">
+          <div class="col-12">
+            {{ range .Site.Data.homepage.home.socialLinks }}
+            <a class="some-icon-footer" href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer"
+              ><i class="icon-{{ .icon }}-line"></i
+            ></a>
+            {{ end }}
+          </div>
+        </div>
+
       </ul>
     </div>
     <div class="footer__right">
