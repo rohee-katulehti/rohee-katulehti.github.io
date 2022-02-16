@@ -1,8 +1,10 @@
 {{ if .Site.Data.homepage.home2.enable }}
 <section class="section rad-animation-group section--border-bottom">
   <div class="container">
-    <div class="row mb-0 row--padded rad-fade-down">
-          {{ range .Site.Data.homepage.home2.items }}
+    <div class="rad-fade-down">
+      <h2 class="columns-header">{{ .Site.Data.homepage.home2.title }}</h2>
+      <div class="row mb-0 row--padded rad-fade-down">
+      {{ range .Site.Data.homepage.home2.items }}
           <div class="col-12 col-md-4 mb-md-0 testimonial">
               <p>
                 {{ .content | safeHTML }}
@@ -10,6 +12,7 @@
           </div>
           {{ end }}
       </div>
+    </div>
   </div>
 </section>
 {{ end }}
