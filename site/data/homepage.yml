@@ -104,7 +104,7 @@ about3:
 huhtikuun puolivälissä. Seuraavat lehdet ilmestyvät elokuun alussa ja lokakuun puolivälissä.
     </p>
     <p class="lead">
-    Roheessa voi olla mukana yhteisötilaajana, jolloin logosi näkyy <a href="img/rohee_takasivu2.png" target="_blank" rel="noopener noreferrer">lehden takasivulla</a> ja saat
+    Roheessa voi olla mukana yhteisötilaajana, jolloin logosi näkyy <a href="/pdf/takasivu280422.pdf" download>lehden takasivulla</a> ja saat
 toimistollesi vuoden lehdet. Lehdessä on myös muita mainospaikkoja. Tutustu niihin Roheen mediakortista, jonka voit ladata <a href="/pdf/mediakortti1_2022.pdf" download>tästä</a>.
     </p>'
   button:
@@ -143,4 +143,4 @@ contact:
     number: '<a href="tel:+358405727506">040 5727 506</a>'
   email:
     title: "Sähköposti"
-    email: '<a href="mailto:rohee.katulehti@gmail.com">rohee.katulehti@gmail.com</a> / <a href="mailto:hannelemarjaana@gmail.com">hannelemarjaana@gmail.com</a>'
+    email: '<a href="mailto:hannele@rohee.fi">hannele@rohee.fi</a>'
