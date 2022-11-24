@@ -80,11 +80,6 @@ about2:
     <a target="_blank" rel="noopener noreferrer" href="https://www.yad.fi">YAD ry:stä</a> ja
     <a target="_blank" rel="noopener noreferrer" href="https://ehyt.fi/ehyt-ry/toiminta-ja-hankkeet/opiskelijoille-tyoikaisille-ja-ikaantyneille/elokolo-kohtaamispaikat/tampereen-elokolo/">EHYT ry:n</a>
     Tampereen Elokolosta. Mukana on myös <a target="_blank" rel="noopener noreferrer" href="https://nauha.fi/">Nauha ry</a>.
-    </p>
-    <p class="lead">
-    Ensimmäinen numero ilmestyy huhtikuussa!
-    Jos haluat tukea lehteä, voit myös tilata sen kotiisi
-    <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/QPMKyribzEBraXf38">tästä linkistä</a>.
     </p>'
   button:
     icon: "icon-mail-fill"
@@ -102,13 +97,21 @@ about3:
   enable: true
   title: "Ilmoita ja tue lehteä!"
   content: '<p class="lead">
-    Ensimmäisenä toimintavuotenaan Rohee ilmestyy kolme kertaa. Ensimmäinen lehti ilmestyy
-huhtikuun puolivälissä. Seuraavat lehdet ilmestyvät elokuun alussa ja lokakuun puolivälissä.
-    </p>
-    <p class="lead">
-    Roheessa voi olla mukana yhteisötilaajana, jolloin logosi näkyy <a href="/pdf/takasivu.pdf" download>lehden takasivulla</a> ja saat
-toimistollesi vuoden lehdet. Lehdessä on myös muita mainospaikkoja. Tutustu niihin Roheen mediakortista, jonka voit ladata <a href="/pdf/mediakortti.pdf" download>tästä</a>.
-    </p>'
+Ensimmäisenä toimintavuotenaan Rohee ilmestyi kolme kertaa.
+Vuonna 2023 lehti ilmestyy viisi kertaa.
+  </p>
+  <p class="lead">
+Roheessa voi olla mukana yhteisötilaajana,
+jolloin logosi näkyy <a target="_blank" rel="noopener noreferrer" href="/pdf/takasivu.pdf">lehden takasivulla</a> ja saat toimistollesi vuoden lehdet.
+Lehdessä on myös muita mainospaikkoja. Tutustu niihin Roheen mediakortista,
+jonka voit ladata <a href="/pdf/mediakortti.pdf" download>tästä</a>.
+Lehden ilmoitusmyyjänä työskentelee Kirsi Lambert, <a href="mailto:kirsi@rohee.fi">kirsi@rohee.fi</a>.
+  </p>
+  <p class="lead">
+Jos haluat tukea lehteä, voit myös tilata sen kotiisi <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/QPMKyribzEBraXf38">tästä linkistä</a>.
+Marraskuussa 2023 ilmestyi Roheen joulukorttiniput, jotka sisältävät neljä erilaista AD-graafikko Mirkka Hietasen suunnittelemaa korttia.
+Niitä voi ostaa katumyyjiltä mutta myös tilata kotiin <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/9S52rSi78Q1jsRqU7">tästä linkistä</a>.
+  </p>'
   button:
     icon: "icon-mail-fill"
     btnText: "Ota yhteyttä"
