@@ -5,12 +5,12 @@ home:
 Lehti maksaa kadulla 10 euroa, myyjä on ostanut lehden etukäteen viidellä eurolla ja saa
 myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakauslehti täynnä kulttuuria, kokemuksia kaduilta ja yhteiskunnallisia huomioita.</p>'
   image:
-    alt: "Keskustori, Tampere, Suomi"
-    x: "img/juho-luomala-2wpkWqkPTlY-unsplash.jpg"
-    _2x: "img/juho-luomala-2wpkWqkPTlY-unsplash.jpg"
+    alt: "Kuvitus Jiipu Uusitalo"
+    x: "img/rohee_01_jiipu_uusitalo.png"
+    _2x: "img/rohee_01_jiipu_uusitalo.png"
   imageMobile:
-    alt: "Keskustori, Tampere, Suomi"
-    x: "img/juho-luomala-2wpkWqkPTlY-unsplash.jpg"
+    alt: "Kuvitus Jiipu Uusitalo"
+    x: "img/rohee_01_jiipu_uusitalo.png"
   button:
     icon: "icon-mail-fill"
     btnText: "Ota yhteyttä"
@@ -56,9 +56,9 @@ myös valita oman myyntipaikkasi.
     btnText: "Ota yhteyttä"
     URL: "#yhteys"
   image:
-    alt: "Keskustori, Tampere, Suomi"
-    x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
-    _2x: "img/juho-luomala-nK7WenuuHqY-unsplash.jpg"
+    alt: "Kuvitus Jiipu Uusitalo"
+    x: "img/rohee_02_jiipu_uusitalo.jpeg"
+    _2x: "img/rohee_02_jiipu_uusitalo.jpeg"
   nextId: "lehti"
 
 about2:
@@ -86,9 +86,9 @@ about2:
     btnText: "Ota yhteyttä"
     URL: "#yhteys"
   image:
-    alt: "Itsenäisyydenkatu, Tampere, Suomi"
-    x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
-    _2x: "img/juho-luomala-VtX-rh3_JYs-unsplash.jpg"
+    alt: "Kuvitus Jiipu Uusitalo"
+    x: "img/rohee_03_jiipu_uusitalo.jpeg"
+    _2x: "img/rohee_03_jiipu_uusitalo.jpeg"
   nextId: "ilmoita"
 
 # about
@@ -117,9 +117,9 @@ Niitä voi ostaa katumyyjiltä mutta myös tilata kotiin <a target="_blank" rel=
     btnText: "Ota yhteyttä"
     URL: "#yhteys"
   image:
-    alt: "Pyynikin kirkkopuisto, Pirkankatu, Tampere, Suomi"
-    x: "img/juho-luomala-6tPkUHiRFac-unsplash.jpg"
-    _2x: "img/juho-luomala-6tPkUHiRFac-unsplash.jpg"
+    alt: "Kuvitus Jiipu Uusitalo"
+    x: "img/rohee_04_jiipu_uusitalo.jpeg"
+    _2x: "img/rohee_04_jiipu_uusitalo.jpeg"
 
 home2:
   enable: true
