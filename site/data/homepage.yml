@@ -6,11 +6,11 @@ Lehti maksaa kadulla 10 euroa, myyjä on ostanut lehden etukäteen viidellä eur
 myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakauslehti täynnä kulttuuria, kokemuksia kaduilta ja yhteiskunnallisia huomioita.</p>'
   image:
     alt: "Kuvitus Jiipu Uusitalo"
-    x: "img/rohee_01_jiipu_uusitalo.png"
-    _2x: "img/rohee_01_jiipu_uusitalo.png"
+    x: "img/rohee_01_jiipu_uusitalo.jpg"
+    _2x: "img/rohee_01_jiipu_uusitalo.jpg"
   imageMobile:
     alt: "Kuvitus Jiipu Uusitalo"
-    x: "img/rohee_01_jiipu_uusitalo.png"
+    x: "img/rohee_01_jiipu_uusitalo.jpg"
   button:
     icon: "icon-mail-fill"
     btnText: "Ota yhteyttä"
@@ -57,8 +57,8 @@ myös valita oman myyntipaikkasi.
     URL: "#yhteys"
   image:
     alt: "Kuvitus Jiipu Uusitalo"
-    x: "img/rohee_02_jiipu_uusitalo.jpeg"
-    _2x: "img/rohee_02_jiipu_uusitalo.jpeg"
+    x: "img/rohee_02_jiipu_uusitalo.jpg"
+    _2x: "img/rohee_02_jiipu_uusitalo.jpg"
   nextId: "lehti"
 
 about2:
@@ -87,8 +87,8 @@ about2:
     URL: "#yhteys"
   image:
     alt: "Kuvitus Jiipu Uusitalo"
-    x: "img/rohee_03_jiipu_uusitalo.jpeg"
-    _2x: "img/rohee_03_jiipu_uusitalo.jpeg"
+    x: "img/rohee_03_jiipu_uusitalo.jpg"
+    _2x: "img/rohee_03_jiipu_uusitalo.jpg"
   nextId: "ilmoita"
 
 # about
@@ -118,8 +118,8 @@ Niitä voi ostaa katumyyjiltä mutta myös tilata kotiin <a target="_blank" rel=
     URL: "#yhteys"
   image:
     alt: "Kuvitus Jiipu Uusitalo"
-    x: "img/rohee_04_jiipu_uusitalo.jpeg"
-    _2x: "img/rohee_04_jiipu_uusitalo.jpeg"
+    x: "img/rohee_04_jiipu_uusitalo.jpg"
+    _2x: "img/rohee_04_jiipu_uusitalo.jpg"
 
 home2:
   enable: true
