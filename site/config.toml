@@ -74,7 +74,7 @@ weight = 5
 sections = ["home", "about1", "about2", "about3", "home2", "contact"]
 
 description = "Rohee on paikallinen katulehti Pirkanmaalla. Katulehteä saa myydä kuka tahansa tuloja tarvitseva. Lehti maksaa kadulla 10 euroa, myyjä on ostanut lehden etukäteen viidellä eurolla ja saa myyntivoiton tuloa. Lehti on innostava ja kiinnostava aikakauslehti täynnä kulttuuria, kokemuksia kaduilta ja yhteiskunnallisia huomioita."
-images = ['img/rohee_01_jiipu_uusitalo.png']
+images = ['img/rohee_01_jiipu_uusitalo.jpg']
 title = "Rohee – rouhea ja rohkea tamperelainen katulehti"
 
 #googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
