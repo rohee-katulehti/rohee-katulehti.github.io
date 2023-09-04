@@ -5,12 +5,12 @@ home:
 Lehti maksaa kadulla 10 euroa, myyjä on ostanut lehden etukäteen viidellä eurolla ja saa
 myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakauslehti täynnä kulttuuria, kokemuksia kaduilta ja yhteiskunnallisia huomioita.</p>'
   image:
-    alt: "Kuvitus Jiipu Uusitalo"
-    x: "img/rohee_01_jiipu_uusitalo.jpg"
-    _2x: "img/rohee_01_jiipu_uusitalo.jpg"
+    alt: "Rohee"
+    x: "img/rohee_01.jpg"
+    _2x: "img/rohee_01.jpg"
   imageMobile:
-    alt: "Kuvitus Jiipu Uusitalo"
-    x: "img/rohee_01_jiipu_uusitalo.jpg"
+    alt: "Rohee"
+    x: "img/rohee_01.jpg"
   button:
     icon: "icon-mail-fill"
     btnText: "Ota yhteyttä"
@@ -38,8 +38,7 @@ about1:
 Myyjänä tienaat 5 euroa jokaisesta myydystä lehdestä.   </p>
   <p class="lead">
 Jos haluat myydä Rohee-lehteä, ota yhteyttä sähköpostitse tai puhelimitse.
-Lehden myyjien tapaamispiste kulttuuritalo Laikussa Tampereen keskustassa avoinna ti 10–12, ke & pe 13–15.
-Tammikuussa 2023 tapaamispiste siirtyy <a target="_blank" rel="noopener noreferrer" href="https://tampereenseurakunnat.fi/sivustot/vanha_kirkko">Vanhaan kirkkoon</a>.
+Lehden myyjien tapaamispiste Tampereen keskustassa <a target="_blank" rel="noopener noreferrer" href="https://tampereenseurakunnat.fi/sivustot/vanha_kirkko">Vanhassa kirkossa</a> ti, ke ja pe kello 13–15.
 Lisäksi myyjien tapaamispiste <a target="_blank" rel="noopener noreferrer" href="https://www.tampere.fi/hyvinvointikeskukset-ja-lahitorit/hervannan-yhteisokeskus-l8">Hervannassa Yhteisötalo L8:ssa</a> torstaisin kello 10–12.
 Tapaamisen voi aina sopia muuhun ajankohtaan puhelimitse tai sähköpostitse.
   </p>
