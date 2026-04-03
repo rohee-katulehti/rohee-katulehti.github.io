@@ -1,9 +1,7 @@
 home:
   enable: true
-  title: "Rohee – rouhea ja rohkea tamperelainen katulehti"
-  description: '<p class="lead">Rohee on paikallinen katulehti Pirkanmaalla. Katulehteä saa myydä kuka tahansa tuloja tarvitseva.
-Lehti maksaa kadulla 10 euroa, myyjä on ostanut lehden etukäteen viidellä eurolla ja saa
-myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakauslehti täynnä kulttuuria, kokemuksia kaduilta ja yhteiskunnallisia huomioita.</p>'
+  title: "Rohee – rouhea ja rohkea pirkanmaalainen katulehti"
+  description: '<p class="lead">Rohee on paikallinen katulehti Pirkanmaalla. Katulehteä saa myydä kuka tahansa tuloja tarvitseva. Lehden suositushinta vaihtelee tuotteen mukaan 5–20 euroa, myyjä on ostanut lehden/kirjan etukäteen puolella hinnalla suositushinnasta ja saa myyntivoiton tuloa.</p><p class="lead">Lehti on innostava ja kiinnostava aikakauslehti täynnä kulttuuria, kokemuksia kaduilta ja yhteiskunnallisia huomioita.</p>'
   image:
     alt: "Rohee"
     x: "img/rohee_01.jpg"
@@ -32,24 +30,15 @@ about1:
   enable: true
   title: "Tule myyjäksi!"
   content: '<p class="lead">
-    Rohee on kaduilla myytävä aikakauslehti, jota saa myydä ihan kuka tahansa tuloja haluava.   </p>
-    <p class="lead">
- 
-Myyjänä tienaat 5 euroa jokaisesta myydystä lehdestä.   </p>
-  <p class="lead">
-Jos haluat myydä Rohee-lehteä, ota yhteyttä sähköpostitse tai puhelimitse.
-Lehden myyjien tapaamispiste Tampereen keskustassa <a target="_blank" rel="noopener noreferrer" href="https://tampereenseurakunnat.fi/sivustot/vanha_kirkko">Vanhassa kirkossa</a> ti, ke ja pe kello 13–15.
-Lisäksi myyjien tapaamispiste <a target="_blank" rel="noopener noreferrer" href="https://www.tampere.fi/hyvinvointikeskukset-ja-lahitorit/hervannan-yhteisokeskus-l8">Hervannassa Yhteisötalo L8:ssa</a> torstaisin kello 10–12.
-Tapaamisen voi aina sopia muuhun ajankohtaan puhelimitse tai sähköpostitse.
-  </p>
-    <p class="lead">
- 
-Kun aloitat myyjänä, saat viisi ilmaista lehteä, liivit, vinkkejä myyntipaikasta ja ohjeita töiden
-aloittamiseen. Ilmaislehtien jälkeen ostat niitä etukäteen 5 eurolla ja myyt kympillä. Käteen jäävän
-voiton pidät itselläsi. Voit myydä lehteä milloin haluat ja aina palauttaa myymättömät lehdet. Voit
-myös valita oman myyntipaikkasi.
+    Rohee on kaduilla myytävä aikakauslehti, jota saa myydä ihan kuka tahansa tuloja haluava.
     </p>
-'
+    <p class="lead">
+    Jos haluat myydä Rohee-lehteä, ota yhteyttä sähköpostitse tai puhelimitse. Lehden myyjien tapaamispiste Tampereen keskustassa <a target="_blank" rel="noopener noreferrer" href="https://tampereenseurakunnat.fi/sivustot/vanha_kirkko">Vanhassa kirkossa</a> ti ja pe kello 13–15.
+    Lisäksi myyjien tapaamispiste Hervannan kirkolla kirkon pääaulassa torstaisin kello 11–13. Tapaamisen voi aina sopia muuhun ajankohtaan puhelimitse tai sähköpostitse.
+    </p>
+    <p class="lead">
+    Kun aloitat myyjänä, saat muutaman ilmaisen lehden, vinkkejä myyntipaikasta ja hyvistä käytännöistä. Ilmaislehtien jälkeen ostat niitä etukäteen puoleen hintaan ja myyt suositushinnalla. Käteen jäävän voiton pidät itselläsi. Voit myydä lehteä milloin haluat. Valitset itse oman myyntipaikkasi ja -aikasi, olet itsenäinen jälleenmyyjä.
+    </p>'
   button:
     icon: "icon-mail-fill"
     btnText: "Ota yhteyttä"
@@ -65,20 +54,16 @@ about2:
   enable: true
   title: "Lehti joka innostaa"
   content: '<p class="lead">
-    Aikakauslehti Rohee on kiinnostava, innostava ja osallistava lukupaketti.
-    Sen keskiössä on Tampere, sen kadut ja asukkaat. Lehdessä ilmestyy säännöllisesti
-    syventyvää journalismia, artikkeleja esimerkiksi turvaverkoista ja jalkautuvasta työstä.
-    Mukana kuvareportaaseja kantaaottavista aiheista.
+    Aikakauslehti Rohee on kiinnostava, innostava ja osallistava lukupaketti. Sen keskiössä on Tampere, sen kadut ja asukkaat ja laajemmin Pirkanmaa. Lehdessä ilmestyy säännöllisesti syventyvää journalismia, artikkeleja esimerkiksi turvaverkoista ja jalkautuvasta työstä. Mukana kuvareportaaseja kantaaottavista aiheista.
     </p>
     <p class="lead">
-    Lehden kolumnistina aloittaa pappi Olli Viljakainen
-    <a target="_blank" rel="noopener noreferrer" href="https://tampereenseurakunnat.fi/sivustot/vanha_kirkko">Vanhasta kirkosta</a>.
-    Sarjakuvataiteilijana lehdessä on <a target="_blank" rel="noopener noreferrer" href="https://tajukankaankutoja.sarjakuvablogit.com/">Jiipu Uusitalo</a>.
-    Tampereen ääni -osiossa perehdytään kiinnostavaan taiteeseen, ajankohtaisiin tapahtumiin ja koskettaviin tarinoihin.
-    Mukana tekijöissä on kirjoittajia muun muassa
-    <a target="_blank" rel="noopener noreferrer" href="https://www.yad.fi">YAD ry:stä</a> ja
-    <a target="_blank" rel="noopener noreferrer" href="https://ehyt.fi/ehyt-ry/toiminta-ja-hankkeet/opiskelijoille-tyoikaisille-ja-ikaantyneille/elokolo-kohtaamispaikat/tampereen-elokolo/">EHYT ry:n</a>
-    Tampereen Elokolosta. Mukana on myös <a target="_blank" rel="noopener noreferrer" href="https://nauha.fi/">Nauha ry</a>.
+    Lehden kolumnistina toimii pappi Olli Viljakainen <a target="_blank" rel="noopener noreferrer" href="https://tampereenseurakunnat.fi/sivustot/vanha_kirkko">Vanhassa kirkosta</a>. Tampereen ääni –osiossa perehdytään kiinnostavaan taiteeseen, ajankohtaisiin tapahtumiin ja koskettaviin tarinoihin. Mukana tekijöissä on kirjoittajia muun muassa <a target="_blank" rel="noopener noreferrer" href="https://www.yad.fi">YAD ry:stä</a> ja <a target="_blank" rel="noopener noreferrer" href="https://ehyt.fi/ehyt-ry/toiminta-ja-hankkeet/opiskelijoille-tyoikaisille-ja-ikaantyneille/elokolo-kohtaamispaikat/tampereen-elokolo/">EHYT ry:n</a> Tampereen Elokolosta. Valtaosa kirjoittajista on ammattitoimittajia.
+    </p>
+    <p class="lead">
+    Voit tutustua <a target="_blank" rel="noopener noreferrer" href="/pdf/rohee_1_2025_low.pdf">täältä näytenumeroon</a>.
+    </p>
+    <p class="lead">
+    Rohee on myös järjestänyt sosiaalisia katukierroksia, ensimmäinen oli aiheella Vapaaehtoisuuden monet kasvot. Loppukeväästä 2026 alkavat Tampereen historian merkkinaiset –kierrokset. Tilaa kierros ryhmällesi (min. 5 henkeä) ja seuraa meidän sosiaalisen median kanaviamme.
     </p>'
   button:
     icon: "icon-mail-fill"
@@ -96,21 +81,14 @@ about3:
   enable: true
   title: "Ilmoita ja tue lehteä!"
   content: '<p class="lead">
-Ensimmäisenä toimintavuotenaan Rohee ilmestyi kolme kertaa.
-Vuonna 2023 lehti ilmestyy viisi kertaa.
-  </p>
-  <p class="lead">
-Roheessa voi olla mukana yhteisötilaajana,
-jolloin logosi näkyy <a target="_blank" rel="noopener noreferrer" href="/pdf/takasivu.pdf">lehden takasivulla</a> ja saat toimistollesi vuoden lehdet.
-Lehdessä on myös muita mainospaikkoja. Tutustu niihin Roheen mediakortista,
-jonka voit ladata <a href="/pdf/mediakortti.pdf" download>tästä</a>.
-Lehden ilmoitusmyyjänä työskentelee Kirsi Lambert, <a href="mailto:kirsi@rohee.fi">kirsi@rohee.fi</a>.
-  </p>
-  <p class="lead">
-Jos haluat tukea lehteä, voit myös tilata sen kotiisi <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/QPMKyribzEBraXf38">tästä linkistä</a>.
-Marraskuussa 2022 ilmestyi Roheen joulukorttiniput, jotka sisältävät neljä erilaista AD-graafikko Mirkka Hietasen suunnittelemaa korttia.
-Niitä voi ostaa katumyyjiltä mutta myös tilata kotiin <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/9S52rSi78Q1jsRqU7">tästä linkistä</a>.
-  </p>'
+    Rohee ilmestyy vuodessa neljä kertaa. Teemme vuosittain lisätuotteita, kuten joulukirjan, korttinipun tai erikoisnumeron, jos siihen on mahdollisuuksia.
+    </p>
+    <p class="lead">
+    Roheessa voi olla mukana yhteisötilaajana, jolloin logosi näkyy <a target="_blank" rel="noopener noreferrer" href="/pdf/takasivu_rohee_1_2026.pdf">lehden takasivulla</a> ja saat toimistollesi vuoden lehdet postitettuina. Lehdessä on myös muita mainospaikkoja. Tutustu niihin Roheen mediakortista, jonka voit ladata <a href="/pdf/mediakortti_2026.pdf" download>tästä</a>. Lehden ilmoitusmyyjänä työskentelee Kirsi Lambert, <a href="mailto:kirsi@rohee.fi">kirsi@rohee.fi</a>.
+    </p>
+    <p class="lead">
+    Jos haluat tukea lehteä, voit myös tilata sen kotiisi <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/QPMKyribzEBraXf38">tästä linkistä</a>.
+    </p>'
   button:
     icon: "icon-mail-fill"
     btnText: "Ota yhteyttä"
@@ -124,13 +102,9 @@ home2:
   enable: true
   title: "Mitä tarkoittaa katulehti?"
   items:
-    - content: 'Maailmalla toimii yli sata eri katulehteä 35 eri maassa. Tunnetuin on <a href="https://www.bigissue.com/" target="_blank" rel="noreferrer">The Big Issue</a>, jonka nimisiä
-katulehtiä ilmestyy ainakin Britanniassa, Japanissa ja Australiassa.  Suomessa pääkaupunkiseudulla on vuodesta 2011 lähtien toiminut <a href="https://www.isonumero.fi/" target="_blank" rel="noreferrer">Iso Numero -lehti.</a>'
-    - content: "Kaikkialla katulehtien idea on
-sama: autetaan ihmisiä auttamaan itseään. Monen lehden myyjät ovat kokeneet asunnottomuutta
-tai ovat muutoin haavoittuvassa asemassa. Lehden myyjä saa aina kansihinnasta vähintään puolet
-tuloa."
-    - content: 'Roheen perustivat Hannele Huhtala ja Olli Viljakainen (pappi/Vanha kirkko) vuonna 2021. Mukana on nyt lukuisia järjestöjä ja muita yksityishenkilöitä. Lehden kustantaa osuuskunta <a href="https://vastapaino.fi/" target="_blank" rel="noreferrer">Vastapaino</a>. Rohee kuuluu kansainväliseen katulehtien verkostoon <a href="https://insp.ngo/" target="_blank" rel="noreferrer">INSPiin</a>.'
+    - content: 'Maailmalla toimii yli sata eri katulehteä 35 eri maassa. Tunnetuin on <a href="https://www.bigissue.com/" target="_blank" rel="noreferrer">The Big Issue</a>, jonka nimisiä katulehtiä ilmestyy ainakin Britanniassa, Japanissa ja Australiassa. Suomessa pääkaupunkiseudulla on vuodesta 2011 lähtien toiminut <a href="https://www.isonumero.fi/" target="_blank" rel="noreferrer">Iso Numero -lehti.</a>'
+    - content: 'Kaikkialla katulehtien idea on sama: autetaan ihmisiä auttamaan itseään. Monen lehden myyjät ovat kokeneet asunnottomuutta tai ovat muutoin haavoittuvassa asemassa. Lehden myyjä saa aina kansihinnasta vähintään puolet tuloa.'
+    - content: 'Roheen perustivat päätoimittaja Hannele Huhtala ja Olli Viljakainen (pappi/Vanha kirkko) vuonna 2021. Mukana on nyt lukuisia järjestöjä ja muita yksityishenkilöitä. Lehden kustantaa osuuskunta <a href="https://vastapaino.fi/" target="_blank" rel="noreferrer">Vastapaino</a>. Rohee kuuluu kansainväliseen katulehtien verkostoon <a href="https://insp.ngo/" target="_blank" rel="noreferrer">INSPiin</a> sekä <a href="https://www.kulttilehdet.fi/" target="_blank" rel="noreferrer">Kulttuuri-, tiede ja mielipidelehtien liitto Kulttiin</a>.'
   nextId: "yhteys"
 
 # contact
