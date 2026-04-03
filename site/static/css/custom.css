@@ -1,0 +1,15 @@
+/* You can customize theme styles here */
+.icon-mastodon-line:before {
+  content: "" !important;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask-image: url('../img/mastodon.svg');
+  mask-image: url('../img/mastodon.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  vertical-align: middle;
+}

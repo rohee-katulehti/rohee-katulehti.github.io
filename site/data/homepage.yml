@@ -20,6 +20,8 @@ home:
       URL: "https://www.facebook.com/katulehtirohee/"
     - icon: "instagram"
       URL: "https://www.instagram.com/katulehti_rohee/"
+    - icon: "mastodon"
+      URL: "https://mementomori.social/@katulehtirohee/"
 
   nextId: "myyjaksi"
 
