@@ -1,6 +1,7 @@
 baseURL = "https://www.rohee.fi/"
 languageCode = "fi"
 theme = "raditian-free-hugo-theme"
+disableKinds = ["taxonomy", "term"]
 
 # Plugins
 [params.plugins]

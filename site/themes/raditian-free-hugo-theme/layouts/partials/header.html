@@ -1,7 +1,7 @@
 <header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
-      <a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">
+      <a class="navbar-brand" href="{{ site.BaseURL | relURL }}">
         <img
           class="img-responsive"
           src="img/logo_rohee_nettisivut.svg"
@@ -23,9 +23,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-lg-auto">
           <li class="nav-item">
-            <a class="nav-link" href="{{ .Site.BaseURL | absURL }}">{{.Name | upper}}</a>
+            <a class="nav-link" href="{{ site.BaseURL | relURL }}">{{.Name | upper}}</a>
           </li>
-          {{ range .Site.Menus.header }}
+          {{ range site.Menus.header }}
           <li class="nav-item">
             <a data-scroll class="nav-link" href="{{ .URL }}"
               >{{ .Name | upper }}</a
@@ -35,8 +35,8 @@
           <li class="nav-item">
             <div class="row platform-links">
               <div class="col-12">
-                {{ range .Site.Data.homepage.home.socialLinks }}
-                <a class="some-icon" href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer"
+                {{ range hugo.Data.homepage.home.socialLinks }}
+                <a class="some-icon" href="{{ .URL | relURL }}" target="_blank" rel="noopener noreferrer"
                   ><i class="icon-{{ .icon }}-line"></i
                 ></a>
                 {{ end }}
