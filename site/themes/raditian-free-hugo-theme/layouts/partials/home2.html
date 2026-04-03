@@ -1,10 +1,10 @@
-{{ if .Site.Data.homepage.home2.enable }}
+{{ if hugo.Data.homepage.home2.enable }}
 <section class="section rad-animation-group section--border-bottom">
   <div class="container">
     <div class="rad-fade-down">
-      <h2 class="columns-header">{{ .Site.Data.homepage.home2.title }}</h2>
+      <h2 class="columns-header">{{ hugo.Data.homepage.home2.title }}</h2>
       <div class="row mb-0 row--padded rad-fade-down">
-      {{ range .Site.Data.homepage.home2.items }}
+      {{ range hugo.Data.homepage.home2.items }}
           <div class="col-12 col-md-4 mb-md-0 testimonial">
               <p>
                 {{ .content | safeHTML }}
@@ -14,8 +14,8 @@
       </div>
     </div>
   </div>
-  {{ if .Site.Data.homepage.home2.nextId }}
-    <div id="{{ .Site.Data.homepage.home2.nextId }}"></div>
+  {{ if hugo.Data.homepage.home2.nextId }}
+    <div id="{{ hugo.Data.homepage.home2.nextId }}"></div>
   {{ end }}
 </section>
 {{ end }}

@@ -1,5 +1,5 @@
-{{ if .Site.Data.homepage.about1.enable }}
-<section class="section rad-animation-group pb-0" id="{{ .Site.Data.homepage.about1.id }}">
+{{ if hugo.Data.homepage.about1.enable }}
+<section class="section rad-animation-group pb-0" id="{{ hugo.Data.homepage.about1.id }}">
   <div class="container rad-fade-down">
     <div class="row d-flex flex-column-reverse flex-md-row">
       <div class="about__profile-picture" style="display: flex; max-height: 500px; flex: 1; width: 100%; padding: 0 12px;">
@@ -7,29 +7,29 @@
           style="height: 100%; object-fit: cover; margin-top: 0; min-height: 500px;"
           class="lozad img-responsive about1-img"
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .Site.Data.homepage.about1.image.x | absURL }}"
-          data-srcset="{{ .Site.Data.homepage.about1.image.x | absURL }} 1x, {{ .Site.Data.homepage.about1.image._2x | absURL }} 2x"
-          alt="{{ .Site.Data.homepage.about1.image.alt }}"
+          data-src="{{ hugo.Data.homepage.about1.image.x | relURL }}"
+          data-srcset="{{ hugo.Data.homepage.about1.image.x | relURL }} 1x, {{ hugo.Data.homepage.about1.image._2x | relURL }} 2x"
+          alt="{{ hugo.Data.homepage.about1.image.alt }}"
         />
       </div>
       <div class="col-12 col-md-6 my-auto my-auto">
-        <h2>{{ .Site.Data.homepage.about1.title }}</h2>
+        <h2>{{ hugo.Data.homepage.about1.title }}</h2>
         <p class="lead">
-          {{ .Site.Data.homepage.about1.content | safeHTML }}
+          {{ hugo.Data.homepage.about1.content | safeHTML }}
         </p>
         <p>
         <a class="contact-btn"
-          href="{{ .Site.Data.homepage.about1.button.URL }}"
+          href="{{ hugo.Data.homepage.about1.button.URL }}"
         >
-          <i class="{{ .Site.Data.homepage.about1.button.icon }}"></i>
-          {{ .Site.Data.homepage.about1.button.btnText }}
+          <i class="{{ hugo.Data.homepage.about1.button.icon }}"></i>
+          {{ hugo.Data.homepage.about1.button.btnText }}
         </a>
       </p>
       </div>
     </div>
   </div>
-  {{ if .Site.Data.homepage.about1.nextId }}
-    <div id="{{ .Site.Data.homepage.about1.nextId }}"></div>
+  {{ if hugo.Data.homepage.about1.nextId }}
+    <div id="{{ hugo.Data.homepage.about1.nextId }}"></div>
   {{ end }}
 </section>
 

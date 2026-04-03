@@ -1,43 +1,43 @@
-{{ if .Site.Data.homepage.home.enable }}
+{{ if hugo.Data.homepage.home.enable }}
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
   <div class="rad-showcase__bg" style="width: 100%; height: 60%; left: 0; justify-content: flex-end; padding-right: 50px">
     <img
       style="width: 40%; object-fit: cover; margin-top: 0; padding-right: 36px;"
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.home.image.x | absURL }}"
-      data-srcset="{{ .Site.Data.homepage.home.image.x | absURL }} 1x, {{ .Site.Data.homepage.home.image._2x | absURL }} 2x"
-      alt="{{ .Site.Data.homepage.home.image.alt }}"
+      data-src="{{ hugo.Data.homepage.home.image.x | relURL }}"
+      data-srcset="{{ hugo.Data.homepage.home.image.x | relURL }} 1x, {{ hugo.Data.homepage.home.image._2x | relURL }} 2x"
+      alt="{{ hugo.Data.homepage.home.image.alt }}"
     />
   </div>
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
         <h1 class="display-1">
-          {{ .Site.Data.homepage.home.title }}
+          {{ hugo.Data.homepage.home.title }}
           <br />
           <span
-            >{{ .Site.Data.homepage.home.subtitle }}</span
+            >{{ hugo.Data.homepage.home.subtitle }}</span
           >
         </h1>
         <p class="lead">
-          {{ .Site.Data.homepage.home.description | safeHTML }}
+          {{ hugo.Data.homepage.home.description | safeHTML }}
         </p>
         <p>
           <a
-          href="{{ .Site.Data.homepage.home.button.URL }}"
+          href="{{ hugo.Data.homepage.home.button.URL }}"
           class="contact-btn"
         >
-          <i class="{{ .Site.Data.homepage.home.button.icon }}"></i>
-          {{ .Site.Data.homepage.home.button.btnText }}
+          <i class="{{ hugo.Data.homepage.home.button.icon }}"></i>
+          {{ hugo.Data.homepage.home.button.btnText }}
         </a>
         </p>
       </div>
     </div>
     <!--<div class="row platform-links">
       <div class="col-12">
-        {{ range .Site.Data.homepage.home.socialLinks }}
-        <a href="{{ .URL | absURL }}" target="_blank"
+        {{ range hugo.Data.homepage.home.socialLinks }}
+        <a href="{{ .URL | relURL }}" target="_blank"
           ><i class="icon-{{ .icon }}-line"></i
         ></a>
         {{ end }}
@@ -49,12 +49,12 @@
       style="max-height: 500px; object-fit: cover;  max-width: 540px; padding-bottom: 60px;"
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.home.imageMobile.x | absURL }}"
-      alt="{{ .Site.Data.homepage.home.imageMobile.alt }}"
+      data-src="{{ hugo.Data.homepage.home.imageMobile.x | relURL }}"
+      alt="{{ hugo.Data.homepage.home.imageMobile.alt }}"
     />
   </div>
-  {{ if .Site.Data.homepage.home.nextId }}
-    <div id="{{ .Site.Data.homepage.home.nextId }}"></div>
+  {{ if hugo.Data.homepage.home.nextId }}
+    <div id="{{ hugo.Data.homepage.home.nextId }}"></div>
   {{ end }}
 </section>
 {{ end }}

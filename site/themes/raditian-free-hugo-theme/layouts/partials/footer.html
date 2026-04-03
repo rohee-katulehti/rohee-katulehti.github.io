@@ -2,7 +2,7 @@
   <div class="container">
     <div class="footer__left">
       <div class="footer__copy">
-        {{ .Site.Params.footer.copyright }}
+        {{ site.Params.footer.copyright }}
       </div>
     </div>
     <div class="footer__links">
@@ -10,7 +10,7 @@
         <li class="nav-item">
           <a class="nav-link" href="/">{{.Title | upper}}</a>
         </li>
-        {{ range .Site.Menus.footer }}
+        {{ range site.Menus.footer }}
         <li class="nav-item">
           <a class="nav-link" href="{{ .URL }}">{{ .Name | upper }}</a>
         </li>
@@ -19,8 +19,8 @@
         <li class="nav-item">
           <div class="row platform-links">
             <div class="col-12">
-              {{ range .Site.Data.homepage.home.socialLinks }}
-              <a class="some-icon-footer" href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer"
+              {{ range hugo.Data.homepage.home.socialLinks }}
+              <a class="some-icon-footer" href="{{ .URL | relURL }}" target="_blank" rel="noopener noreferrer"
                 ><i class="icon-{{ .icon }}-line"></i
               ></a>
               {{ end }}
@@ -33,9 +33,9 @@
     <div class="footer__right">
       <!--<a href="https://radity.com/"
         ><img
-          src="{{ .Site.Params.footer.radity_logo.x | absURL }}"
-          srcset="{{ .Site.Params.footer.radity_logo.x | absURL }} 1x, {{ .Site.Params.footer.radity_logo._2x | absURL }} 2x"
-          alt="{{ .Site.Params.footer.radity_logo.alt }}"
+          src="{{ site.Params.footer.radity_logo.x | relURL }}"
+          srcset="{{ site.Params.footer.radity_logo.x | relURL }} 1x, {{ site.Params.footer.radity_logo._2x | relURL }} 2x"
+          alt="{{ site.Params.footer.radity_logo.alt }}"
       /></a>-->
     </div>
   </div>
